@@ -25,7 +25,7 @@ jobs:
         # Add any dependencies here (none for this simple app)
 
     - name: Run tests
-      run: python -m unittest test_app.py -v
+      run: python -m unittest tes_app.py -v
 
   deploy:
     needs: test
